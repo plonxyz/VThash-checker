@@ -6,7 +6,9 @@ Supported python version: 3
 Supported hashes: MD5, SHA1, SHA265
 
 ## Dependencies
-Python Modules: requests , simplejson |  VirusTotal API Key
+Python Modules: pip3 install requests , pip3 install simplejson  
+####
+API-KEY from www.virustotal.com
 
 ## functions and how to use 
 ```

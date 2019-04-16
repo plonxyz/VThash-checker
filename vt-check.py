@@ -6,7 +6,7 @@ import hashlib
 import sys
 import argparse
 
-api_key="XXXXXXXXXXXX" #INSERT API-KEY HERE
+api_key="XXXXXXXXXXXXXXXXXX" #INSERT API-KEY HERE
 
 def check_masshashes(tobehashed,path): #function for checking txt-file with multiple hashes
  with open(tobehashed, 'r') as csv_file:
@@ -64,7 +64,7 @@ def vt_getresult(hashes):
 
 def printresult(hash):
   getresult = vt_getresult(hash)
-  print("\nMD5 HASH:{}" .format(hash))
+  print("\nMD5 HASH:{}" .format(getresult.get('md5')))
   if sys.argv[2] != hash:
     print ("origin file name: {}".format(sys.argv[2]))
   print("last scanned: {}" .format(getresult.get('scan_date')))

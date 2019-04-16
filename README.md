@@ -25,9 +25,9 @@ usage: hashcheck.py [-h] [--hash HASH] [--upload UPLOAD] [--file FILE]
 optional arguments: 
   -h, --help                  show this help message and exit
   --hash HASH                 checks hash at VT
-  --upload UPLOAD             uploads file to VT for scanning (NOT SUITABLE FOR
+  --upload example.exe        uploads file to VT for scanning (NOT SUITABLE FOR
                               CONFIDENTIAL STUFF!)
-  --file hashes.txt           hashes file and checks hash at VT
+  --file example.exe           hashes file and checks hash at VT
   --mass hashes.txt           reads multiple hashes out of a txt file and checks them at
                               VT , needs --output for results
   --output /path/result.txt  specify outputpath for mass-check

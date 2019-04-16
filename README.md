@@ -3,7 +3,8 @@
 Python script to check hashes and files at VirusTotal.
 
 Supported python version: 3
-Supported hashes: MD5, SHA1, SHA265
+####
+Supported hashes: MD5, SHA1, SHA256
 
 ## Dependencies
 Python Modules: pip3 install requests , pip3 install simplejson  
